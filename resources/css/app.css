@@ -1,0 +1,9 @@
+@import "@dasundev/livewire-dropzone-styles";
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@media (min-width: 768px) {
+    .ltr\:md\:left-vertical-menu:where([dir=ltr],[dir=ltr] *) {
+        left: 16.25rem !important;
+    }
+}
